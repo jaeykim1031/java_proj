@@ -133,7 +133,14 @@ public class UsageOfDataType { // 클래스 영역
 		   System.out.println("내 이름은 " + lastName1 + " " + firstName1 + firstName2 + " 입니다.");
 		   System.out.printf("내 이름은 %c %c%c 입니다.", lastName1, firstName1, firstName2 );
 		   
-	   //
+	   // 복습
+		    String yourName = "John Doe";
+			String yourWifesname = "Jane Doe";
+			int yourAge = 34;
+			int yourWifesAge = 32;
+			
+			System.out.printf("당신의 이름은 %s입니다. 나이는 %d입니다. \n당신의 아내의 이름은 %s입니다. 나이는 %d입니다 ", yourName, yourAge, yourWifesname, yourWifesAge );
+
 		   
 	}
 
