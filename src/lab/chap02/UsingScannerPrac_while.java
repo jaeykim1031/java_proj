@@ -30,7 +30,7 @@ public class UsingScannerPrac_while {
 			double avg;
 				avg = sum / 3.0;	
 				
-			System.out.printf("%s의 모든 점수의 합계는 %d점이고 평균은 %f점입니다. \n", stu, sum, avg  );
+			System.out.printf("%s의 모든 점수의 합계는 %d점이고 평균은 %f점입니다. \n", stu, sum, avg );
 				
 			stuNum++;
 		}
