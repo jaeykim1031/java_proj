@@ -26,7 +26,7 @@ public class ConvertTypeCountSubject {
 
 	// 각 과목과 점수 입력
 	while (true) {
-		System.out.print("과목명을 입력하시오 (완료시 '끝' 입력)");
+		System.out.print("과목명을 입력하시오 (완료시 '끝' 입력)\n");
 		String subject = scanner.next();
 
 		// '끝' 입력시 루프 종료 
@@ -34,7 +34,7 @@ public class ConvertTypeCountSubject {
 			break;
 		}
 		
-		System.out.print(subject + "의 점수를 입력하시오: ");
+		System.out.print(subject + "의 점수를 입력하시오: \n");
 		int score = scanner.nextInt();
 
 		// 입력받은 과목과 점수를 리스트에 추가
@@ -61,10 +61,10 @@ public class ConvertTypeCountSubject {
 	// 평균 계산을 위한 메서드
 	private static double calculateAverage(List<Integer> scores){
 		if (scores.isEmpty()) {
-				return 0.0; // 과목이 없다면 평균 0 (예외 처리)
+				return 0.0; // 과목이 없다면 평균 0 (엣지 케이스/예외 처리)
 		}
 		int sum = 0;
-		for (int score : scores) {
+		for (int score : scores) { // 향상된 for loop
 			sum += score;
 		}
 		
