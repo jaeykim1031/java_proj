@@ -2,7 +2,7 @@ package lab.chap03;
 
 import java.util.Scanner;
 
-public class ConvertType {
+public class ConvertTypePrac {
 
 	public static void main(String[] args) {
 		// String 으로 인풋 받은 값을 정수/실수 타입으로 변환해서 출력
