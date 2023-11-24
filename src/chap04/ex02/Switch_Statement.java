@@ -1,4 +1,4 @@
-package chap04.ex01;
+package chap04.ex02;
 
 public class Switch_Statement {
 
