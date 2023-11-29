@@ -19,6 +19,5 @@ public class SkewedArray {
 		System.out.println(Arrays.toString(arr[1])); 
 		System.out.println(Arrays.toString(arr[2])); 
 		
-		
 	}
 }
