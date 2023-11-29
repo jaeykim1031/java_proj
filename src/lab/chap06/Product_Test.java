@@ -5,7 +5,7 @@ public class Product_Test {
 	public static void main(String[] args) {
 		
 		// 1. Product 객체 4개 생성.
-		// 2. setter를 사용해서 객체의 필드 값 주 n입 
+		// 2. setter를 사용해서 객체의 필드 값 주입 
 		// 3. 배열 arr, index 10, 각 공간에 4번의 객체를 배열 공간에 할당.
 		// 4. 배열의 값을 꺼내서 Product 변수 p에 담고 출력 (for)
 		
