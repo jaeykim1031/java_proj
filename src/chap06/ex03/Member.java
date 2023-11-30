@@ -123,7 +123,8 @@ public class Member {	// 회원 정보를 담은 클래스
 			// Overriding : 부모 클래스의 메서드를 자식 클래스에서 재정의하여 사용함
 			// Overloading : 메소드 이름은 동일하고, 인풋 매개변수에 개수나 타입에 따라 식별
 	
-	// toString() : Object 클래스의 메서드, 객체 자체를 출력시 그 객체의 필드 값을 출력
+	// toString() : Object 클래스의 메서드, 객체 자체를 출력시 그 객체의 필드 값을 출력 - 원하는 출력이 나오지 않음 
+	//				-> toString() 메서드의 재정의 필요
 	
 	@Override
 	public String toString() {
