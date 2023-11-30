@@ -7,9 +7,7 @@ public class Account {
 	int	money = 10000;			// 잔고 
 	
 	Account() {}
-	
-	Account(String name, int account) {this.name = name; this.account = account;}
-	
+
 	 void deposit (int money) {		// 입금 - ***원 입금되었습니다. 계좌 잔고는 %%%원 입니다
 		 this.money = this.money + money; // this.money = 필드에 있는 money 값
 		 
