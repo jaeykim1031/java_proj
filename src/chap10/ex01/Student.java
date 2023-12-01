@@ -11,8 +11,8 @@ public class Student extends Human{		// 자식 클래스
 	}
 	
 	Student(int studentID){
-//		super();			// 자식 클래스 안에는 항상 존재하나 생략되어있음. 
-		
+//		super();			// 자식 클래스 안에는 항상 존재하나 생략되어있음.
+
 		super("jane", 20); 	// 부모 클래스의 인풋이 2개인 생성자 호출
 		this.studentID = studentID;
 		this.stuName = super.name; //
@@ -28,14 +28,10 @@ public class Student extends Human{		// 자식 클래스
 		System.out.println("학생은 학교를 간다");
 	}
 
-	// professtrt
-	
-	Professor p1 = new Professor;
-		
-		p1.name
-		p1.age
-		
-	p1.name = "김 교수";
+	void stuInfo()	{
+		System.out.println("학생이름은 + " + name + "이고, 나이는 " + age +" 입니다. ");
+	}
+
 		
 		
 	

@@ -23,6 +23,8 @@ public class Fruit_Test {
 		 */
 		
 		// 1. 자식 객체를 생성하면서 부모 타입으로 지정함 - 배열, 컬렉션 동일한 타입으로 저장
+
+
 								// ↓ 이 부분 (값 입력) 틀림
 		Fruit f1 = new Apple("사과", 30, 5000);			// f1: Fruit, Apple
 		Fruit f2 = new Banana("바나나", 44, 6000);		// f2: Fruit, Banana

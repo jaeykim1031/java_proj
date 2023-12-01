@@ -23,21 +23,10 @@ public class Human {		// 부모 클래스 (super class)
 		System.out.println("모든 사람은 학교에 간다. ");
 	}
 	
-	void stuInfo() {
+	void sleep() {
 		System.out.println("모든 사람은 잔다 ");
 	}
-	
-	
-	 // 1. Student 겍체 생ㅅㅇ
-	// Studenst s1 : 메모리에 로드 됨
-	  Student s1 = new Student();
-	  
-	  
-	  // 2. 
-	  // Student 클래스, 필드, 내성
-	  
-	  
-	  
+}
 	  
 	  
 	  

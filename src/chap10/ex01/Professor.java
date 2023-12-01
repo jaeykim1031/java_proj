@@ -4,8 +4,11 @@ public class Professor extends Human {
 				// 자식			// 부모
 	
 	// 필드
-	int 
-	
+	int professorID;
+
 	// 메서드
-	void teach()
+	void teach(){
+		System.out.println("교수는 학생을 가르친다. " +
+				"");
+	}
 }
