@@ -1,10 +1,10 @@
 package chap10.ex03;
 
-public class Eagle {
+public class Eagle extends Animal {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	@Override
+	void cry(){
+		System.out.println(" \"독수리 울음\" ");
 	}
 
 }
