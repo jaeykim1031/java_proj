@@ -1,5 +1,5 @@
 package com.my.movie;
-public class Movie extends MovieTest {
+public class Movie {
 
     String title;
     String director;
