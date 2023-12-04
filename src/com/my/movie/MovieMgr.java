@@ -3,7 +3,7 @@ package com.my.movie;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MovieMgr extends Movie {
+public class MovieMgr {
 
     List<Movie> movies = new ArrayList<>();
     int index = 0;
