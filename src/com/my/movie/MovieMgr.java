@@ -21,7 +21,7 @@ public class MovieMgr {
 			k++;
     	}
     }
-    
+
     void search(String title) {
 		boolean s = false;		//입력 값의 결과 초기값: false
 		
