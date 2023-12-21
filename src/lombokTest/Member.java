@@ -2,11 +2,11 @@ package lombokTest;
 
 import lombok.Getter;
 import lombok.Setter;
+import lombok.Data;
 
 @Getter
 @Setter
-@No
-
+@Data
 
 public class Member {
 
